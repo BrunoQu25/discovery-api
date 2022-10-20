@@ -1,0 +1,19 @@
+{
+  "name": "nodejsexpressapp",
+  "version": "1.0.0",
+  "description": "Start building your next Node.js Express",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js",
+    "docker": "docker build -t backend-project ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ibm-watson": "^6.2.2",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

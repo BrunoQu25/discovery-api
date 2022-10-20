@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+.DS_Store
+server/common/config/discovery-credentials.json
+discovery-api.tar
+*.pdf

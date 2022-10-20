@@ -1,4 +1,4 @@
-const { queryDiscovery } = require("./queryDiscovery.js");
+const { queryDiscovery } = require("./discovery.js");
 
 let jsonExtractor = async () => {
   let results = await queryDiscovery();
