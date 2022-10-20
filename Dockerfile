@@ -32,7 +32,7 @@ RUN npm install
 # Copiamos los archivos al contenedor
 COPY . .
 
-RUN chmod +777 /app/server/uploads
+RUN chmod +777 /server/uploads
 
 ENV NODE_ENV production
 ENV PORT 3000
